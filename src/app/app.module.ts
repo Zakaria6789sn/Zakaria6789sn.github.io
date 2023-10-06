@@ -8,6 +8,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderPrincipaleComponent } from './home/header-principale/header-principale.component';
 import { AboutComponent } from './home/about/about.component';
 import { EsperienzaComponent } from './home/esperienza/esperienza.component';
+import { ContattiComponent } from './home/contatti/contatti.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { EsperienzaComponent } from './home/esperienza/esperienza.component';
     HeaderPrincipaleComponent,
     AboutComponent,
     EsperienzaComponent,
+    ContattiComponent,
   ],
   imports: [
     BrowserModule,
